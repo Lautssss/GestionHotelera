@@ -86,6 +86,92 @@ def mostrar_disponibles(cantidad_huespedes):
     
     return hay_alguna
 
+def hacer_checkin(numero_habitacion):
+    global hab_101_ocupada, hab_102_ocupada, hab_103_ocupada
+    global hab_201_ocupada, hab_202_ocupada, hab_203_ocupada
+    global hab_301_ocupada, hab_302_ocupada, hab_303_ocupada
+    global hab_401_ocupada, hab_402_ocupada
+
+    if numero_habitacion == 101:
+        if hab_101_ocupada == False:
+            hab_101_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 102:
+        if hab_102_ocupada == False:
+            hab_102_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 103:
+        if hab_103_ocupada == False:
+            hab_103_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 201:
+        if hab_201_ocupada == False:
+            hab_201_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 202:
+        if hab_202_ocupada == False:
+            hab_202_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 203:
+        if hab_203_ocupada == False:
+            hab_203_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 301:
+        if hab_301_ocupada == False:
+            hab_301_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 302:
+        if hab_302_ocupada == False:
+            hab_302_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 303:
+        if hab_303_ocupada == False:
+            hab_303_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 401:
+        if hab_401_ocupada == False:
+            hab_401_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    elif numero_habitacion == 402:
+        if hab_402_ocupada == False:
+            hab_402_ocupada = True
+            print("Check-in realizado correctamente.")
+        else:
+            print("La habitación ya está ocupada.")
+
+    else:
+        print("La habitación no existe.")
+
 opcion = 0
 
 while opcion != 4:
@@ -112,7 +198,11 @@ while opcion != 4:
         if hay_alguna == False:
             continue
         else:
-            # llamar a la función de check-in
+            try:
+              numero = int(input("Ingrese el número de habitación: "))
+              hacer_checkin(numero)
+            except ValueError:
+              print("Error: debe ingresar un número de habitación válido.")
     elif opcion == 2:
         # llamar a la función de check-out
         pass
