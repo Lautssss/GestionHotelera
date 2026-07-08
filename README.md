@@ -4,7 +4,7 @@ Gestión Hotelera
 Trabajo Final Integrador
 Materia: Algoritmos y Estructuras de Datos
 Ingeniería en Sistemas de Información – UTN FRRe
-Comisión: C
+Comisión: ISI C/ K1.3
 Grupo: C30
 
 Integrantes: 
@@ -12,6 +12,9 @@ Integrantes:
 - ALARCÓN, Franco Matías.
 - BORDON GAUNA, Lautaro Nicolas.
 - TOMOFF, Julián Martín.
+
+Link al video explicativo en Youtube: https://youtu.be/X5McX2zNDMs
+Link al repositorio: https://github.com/Lautssss/GestionHotelera
 
 
  Descripción general del sistema: 
