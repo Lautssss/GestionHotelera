@@ -5,7 +5,7 @@ Trabajo Final Integrador
 Materia: Algoritmos y Estructuras de Datos
 Ingeniería en Sistemas de Información – UTN FRRe
 Comisión: C
-Grupo: 30
+Grupo: C30
 
 Integrantes: 
 
@@ -19,6 +19,8 @@ Integrantes:
 El proyecto consiste en el desarrollo de un sistema de gestión para un hotel de 11 habitaciones realizado en Python.
 Su objetivo es administrar la ocupación de las habitaciones mediante un menú interactivo. El sistema permite realizar operaciones básicas relacionadas con el ingreso y salida de huéspedes, consultar habitaciones disponibles y obtener estadísticas sobre la ocupación del hotel.
 Durante el desarrollo se aplicaron los contenidos vistos en la materia hasta el momento, utilizando funciones, estructuras condicionales, estructuras repetitivas, validaciones y manejo básico de errores.
+
+Para el desarrollo del trabajo se utilizó a ChatGPT y a Claude como ayudantes de Inteligencia Artificial. Sus ayudas fueron puramente técnicas, ya que las ideas de diseño estaban claras y definidas por el grupo desde el principio. La IA nos ha explicado conceptos y depurado código para hallar erroes/bugs.
 
 
 Funcionalidades
