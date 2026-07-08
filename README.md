@@ -71,5 +71,3 @@ Instrucciones de ejecución
 python src/hoteles.py   
 
 
-Video demo: 
-
