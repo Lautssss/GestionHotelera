@@ -5,6 +5,7 @@ Trabajo Final Integrador
 Materia: Algoritmos y Estructuras de Datos
 Ingeniería en Sistemas de Información – UTN FRRe
 Comisión: C
+Grupo: 30
 
 Integrantes: 
 
